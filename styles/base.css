@@ -1,0 +1,30 @@
+:root{
+    --secondary-bg-color:#757575;
+    --third-bg-color:#262626;
+    --font-color:#1D1D1D;
+    --secondary-font-color:#626262;
+    --fonts: 'Roboto', sans-serif;
+    --main-font-weight: 400;
+    --text-font-size: 14px;
+    --text-line-height: 24px;
+    --secondary-font-size: 13px;
+    --secondary-line-heihgt:16px;
+    --price-font-size: 15px;
+    --list-font-size: 16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+h1,h2,h3,div,p,a,li,ul,ol{
+    font-family: var(--fonts);
+    font-weight: var(--main-font-weight);
+}
+ul, ol{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
